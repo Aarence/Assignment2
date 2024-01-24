@@ -1,0 +1,247 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey-strip {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 3px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 2px solid lightgrey;
+}
+
+.item1, .item2, .item3, .item4 {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.item1 {
+    margin-left: 400px;
+}
+
+.item4 {
+    margin-right: auto;
+}
+
+.logo {
+    height: auto;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.cart {
+    height: auto;
+    width: 75px;
+    margin-left: 125px;
+}
+
+.searchButton {
+    height: auto;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.firstSentence {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border: 3px solid lightgrey;
+    border-bottom: 1px solid white;
+    border-left: white;
+    border-right: white;
+}
+
+.contact {
+    font-size: x-large;
+    margin-left: 700px;
+}
+
+.Where {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    padding: 5px;
+}
+
+.ToFindUs {
+    font-size: 20px;
+    margin-left: 275px;
+}
+
+.Text {
+    margin-left: 175px;
+}
+
+.placeholder3 {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-left: 175px;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.formtext {
+    font-size: larger;
+    margin-left: 85px;
+    margin-top: -350px;
+    text-decoration: underline;
+}
+
+.name {
+    margin-top: 150px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.Name {
+    margin-left: -150px;
+}
+
+.email {
+    width: 200px;
+    margin-left: 19px;
+}
+
+.Email {
+    margin-left: -150px;
+}
+
+.subject {
+    width: 200px;
+    margin-left: 5px;
+}
+
+.Subject {
+    margin-left: -150px;
+}
+
+.textbox {
+    width: 1200px;
+    height: 150px;
+    margin-left: -150px;
+    vertical-align: top;
+    resize: none;
+    overflow-wrap: break-word;
+}
+
+.Textbox {
+    margin-left: -150px;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+	margin-left: -215px;
+    margin-top: 20px;
+
+    transition: background-color 0.2s, box-shadow 0.2s;
+
+    background-color: rgb(137, 130, 130);
+    color: #fff;
+    border: 1px solid black;
+}
+
+.submit:active {
+    background-color: #545151;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.reset {
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    margin-left: -40px;
+
+    transition: background-color 0.2s, box-shadow 0.2s;
+
+    background-color: rgb(137, 130, 130);
+    color: #fff;
+    border: 1px solid black;
+}
+
+.reset:active {
+    background-color: #545151;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.page-end-container1 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid lightgray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: white;
+}
+
+.about-uniqlo {
+    margin-left: 50px;
+}
+
+.Help {
+    margin-left: 175px;
+    margin-top: 26px;
+}
+
+.Account{
+    margin-top: -48px;
+    margin-left: 150px;
+}
+
+.E-Newsletter{
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.social{
+    margin-top:-84px;
+    margin-left: 125px;
+}
+
+.copyright-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: white;
+}
+
+.copyright-claims {
+    margin-left: 50px;
+    color: gray;
+}
+
+.Terms-of-use
+{
+    color: gray;
+    margin-left: 700px;
+}
+
+.Privacy-Policy{
+    color: gray;
+    margin-left: 25px;
+}
