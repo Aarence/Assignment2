@@ -1,0 +1,210 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey-strip {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 3px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 2px solid lightgrey;
+}
+
+.item1, .item2, .item3, .item4 {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.item1 {
+    margin-left: 400px;
+}
+
+.item4 {
+    margin-right: auto;
+}
+
+.logo {
+    height: auto;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.cart {
+    height: auto;
+    width: 75px;
+    margin-left: 125px;
+}
+
+.searchButton {
+    height: auto;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.product1 {
+    width: 77%;
+    height: auto;
+    margin-left: 60px;
+}
+
+.product2 {
+    width: 83%;
+    height: auto;
+    margin-left: 9px;
+}
+
+.product3 {
+    width: 85%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.product4 {
+    width: 87%;
+    height: auto;
+    margin-left: -20px;
+}
+
+.productContainer1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    border: 3px solid white;
+}
+
+.product5 {
+    width: 77%;
+    height: auto;
+    margin-left: 60px;
+}
+
+.product6 {
+    width: 83%;
+    height: auto;
+    margin-left: 9px;
+}
+
+.product7 {
+    width: 85%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.product8 {
+    width: 87%;
+    height: auto;
+    margin-left: -20px;
+}
+
+.productContainer2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    border: 3px solid white
+}
+
+.product9 {
+    width: 77%;
+    height: auto;
+    margin-left: 60px;
+}
+
+.product10 {
+    width: 83%;
+    height: auto;
+    margin-left: 9px;
+}
+
+.product11 {
+    width: 85%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.product12 {
+    width: 87%;
+    height: auto;
+    margin-left: -20px;
+}
+
+.productContainer3 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    border: 3px solid white
+}
+
+.page-end-container1 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid lightgray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: white;
+}
+
+.about-uniqlo {
+    margin-left: 50px;
+}
+
+.Help {
+    margin-left: 175px;
+    margin-top: 26px;
+}
+
+.Account{
+    margin-top: -48px;
+    margin-left: 150px;
+}
+
+.E-Newsletter{
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.social{
+    margin-top:-84px;
+    margin-left: 125px;
+}
+
+.copyright-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: white;
+}
+
+.copyright-claims {
+    margin-left: 50px;
+    color: gray;
+}
+
+.Terms-of-use
+{
+    color: gray;
+    margin-left: 700px;
+}
+
+.Privacy-Policy{
+    color: gray;
+    margin-left: 25px;
+}
