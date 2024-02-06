@@ -1,0 +1,144 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey-strip {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 3px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 2px solid gray;
+}
+
+.item1, .item2, .item3, .item4 {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.item1 {
+    margin-left: 400px;
+}
+
+.item4 {
+    margin-right: auto;
+}
+
+.logo {
+    height: auto;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.cart {
+    height: auto;
+    width: 75px;
+    margin-left: 125px;
+}
+
+.searchButton {
+    height: auto;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.payment-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button,
+.button2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:active,
+.button2:active {
+    background-color: #0056b3;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button2 {
+    margin-top: 10px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input3{
+    margin-left: 0px;
+    width: 282px;
+}
+
+.input4{
+    width: 282px;
+}
+
+.input5 {
+    width: 94%;
+}
+
+.lbl5,
+.lbl6 {
+    margin-bottom: 5px;
+}
+
+.input6 {
+    width: 100%;
+    height: 30px;
+}
+
+.payment-notification {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
