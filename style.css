@@ -1,0 +1,834 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.section-p1 {
+	padding: 40px 80px;
+}
+
+button.normal{
+	font-size: 14px;
+	font-weight: 600;
+	padding: 15px 30px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: 0.2s;
+	background-color:red;
+	color: white;
+}
+.grey-strip {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 3px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 2px solid gray;
+}
+
+.item1, .item2, .item3, .item4 {
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.item1 {
+    margin-left: 400px;
+}
+
+.item4 {
+    margin-right: auto;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.cart {
+    height: auto;
+    width: 75px;
+    margin-left: 125px;
+}
+
+.searchButton {
+    height: auto;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border: 3px solid lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+.image-container .product11 {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.productContainer1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    border: 3px solid lightgrey;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.arrow1 {
+    width: 80px;
+    height: auto;
+    margin-left: -50px;
+}
+
+.arrow2 {
+    width: 80px;
+    height: auto;
+    margin-right: -55px;
+}
+
+.page-end-container1 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid lightgray;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+.about-uniqlo {
+    margin-left: 50px;
+	margin-top: -10px;
+}
+
+.Help {
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+.Account{
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.E-Newsletter{
+    margin-top: -10px;
+    margin-left: 150px;
+}
+
+.social{
+    margin-top:-70px;
+    margin-left: 125px;
+}
+
+
+.socialIcons{
+	display:flex;
+	justify-content: center;
+	margin-left:90px;
+}
+.socialIcons a{
+	text-decoration: none;
+	padding-left: 15px;
+	background-color: white;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+
+.socialIcons a i{
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+
+.copyright-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.copyright-claims {
+    margin-left: 50px;
+    color: gray;
+}
+
+.Terms-of-use
+{
+    color: gray;
+    margin-left: 700px;
+}
+
+.Privacy-Policy{
+    color: gray;
+    margin-left: 25px;
+}
+
+#product1{
+	text-align: center;
+}
+
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+#product1 .pro{
+	background-color: white;
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 10px;
+	border: 1px solid #E3E6F3;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow:20px 20px 30px rgba(0, 0, 0, 0.02);
+	margin:15px 0;
+	transition: 0.2s ease;
+	position: relative;
+}
+#product1 .pro:hover{
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro .des{
+	text-align: start;
+	padding: 10px 0;
+}
+
+#product1 .pro .des span{
+	color: #606063;
+	font-size: 12px;
+}
+
+#product1 .pro .des h5{
+	padding-top: 7px;
+	color: #1a1a1a;
+	font-size: 14px;
+}
+
+#product1 .pro .des h4 {
+	padding-top: 7px;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+}
+product1 .carousel-inner
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+.carousel-inner
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+product1 .carousel-item
+{
+	background-color: white;
+	width: 23%;
+	min-width: 250px;
+	height: 100%;
+	padding: 10px 10px;
+	border: 1px solid #E3E6F3;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow:20px 20px 30px rgba(0, 0, 0, 0.02);
+	margin:15px 0;
+	transition: 0.2s ease;
+	position: relative;
+}
+
+.Container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* End of index code */
+
+/* Start of About */
+#about-header{
+	background-image: url("image/Banner/about.jpg");
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 10px 10px 10px 10px;
+}
+
+
+.image2 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 3px solid lightgrey;
+    border-bottom: 1px solid white;
+    border-left: white;
+    border-right: 2px solid lightgray;
+    border-top: white;
+}
+
+.aboutusimage2 {
+    max-width: 80%;
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+#aboutus{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#aboutus1{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#aboutus p,
+#aboutus1 p {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+#aboutus1 h2{
+	color: red;
+	font-size: 30pt;
+	text-align: center;
+}
+
+#aboutus .container{
+	margin-top: 70px;
+	max-width: 500px;
+}
+
+#aboutus1 .container1{
+	justify-content:center;
+	padding: 10px;
+	flex-wrap: wrap;
+	max-width: 5000px;
+    margin:auto 160px;
+}
+/* End of about us */
+
+/*Start of Contact */
+#contact-header{
+	background-image: url("image/Banner/contactus.jpg");
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	background-position: top 40% right 10%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+#weather-details{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#weather-details .details{
+	width: 40%;
+}
+#weather-details h1 {
+    font-size: 24px; /* Set the desired font size */
+}
+
+#psi-container {
+    margin-left: 100px; /* Adjust margin as needed */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#psi-data {
+    border-collapse: collapse;
+    font-size: 0.8em;
+}
+
+#psi-data th, #psi-data td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+#btnSubmit {
+    font-size: 0.8em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+#btnSubmit:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+
+
+#contact-details{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#contact-details .details{
+	width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span{
+	font-size: 16px;
+}
+
+#contact-details .details h2, 
+#form-details form h2{
+	font-size: 32px;
+	line-height: 35px;
+	padding: 20px 0;
+}
+
+#contact-details .details h3{
+	font-size: 24px;
+	padding-bottom: 15px; 
+}
+
+#contact-details .details li{
+	list-style: none;
+	display: flex;
+	padding: 10px 0;
+}
+
+#contact-details .details li p{
+	margin: 0 10px;
+	font-size: 16px;
+}
+
+#contact-details .map{
+	width: 55%;
+	height: 400px;
+}
+#contact-details .map iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.formtext {
+    font-size: larger;
+    margin-left: 85px;
+    margin-top: -350px;
+    text-decoration: underline;
+}
+
+.name {
+    margin-top: 150px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.Name {
+    margin-left: -150px;
+}
+
+.email {
+    width: 200px;
+    margin-left: 19px;
+}
+
+.Email {
+    margin-left: -150px;
+}
+
+.subject {
+    width: 200px;
+    margin-left: 5px;
+}
+
+.Subject {
+    margin-left: -150px;
+}
+
+.textbox {
+    width: 1200px;
+    height: 150px;
+    margin-left: -150px;
+    vertical-align: top;
+    resize: none;
+    overflow-wrap: break-word;
+}
+
+.Textbox {
+    margin-left: -150px;
+}
+
+.submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+	margin-left: -215px;
+    margin-top: 20px;
+
+    transition: background-color 0.2s, box-shadow 0.2s;
+
+    background-color: rgb(137, 130, 130);
+    color: #fff;
+    border: 1px solid black;
+}
+
+.submit:active {
+    background-color: #545151;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.reset {
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    margin-left: -40px;
+
+    transition: background-color 0.2s, box-shadow 0.2s;
+
+    background-color: rgb(137, 130, 130);
+    color: #fff;
+    border: 1px solid black;
+}
+
+.reset:active {
+    background-color: #545151;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the animation container */
+#animationContainer {
+    display: none; /* Initially hide the animation container */
+    width: 100px; /* Adjust the width as desired */
+    height: 100px; /* Adjust the height as desired */
+    float: left; /* Float the animation container to the left */
+}
+
+/* Style for the form */
+.form {
+    margin-top: 20px; /* Add margin to separate from the animation and notification text */
+}
+
+/* Style for the success message */
+.success-message {
+    margin-top: 20px; /* Add margin to separate from the form */
+}
+
+/* Additional styles to adjust the layout */
+#contact-details {
+    overflow: auto; /* Ensure proper layout with floated elements */
+}
+
+/* End of Contact */
+
+/*Start of Product/Shop */
+
+#page-header{
+	background-image: url("image/Banner/Promotions.jpg");
+	width: 100%;
+	height: 3vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 0 0 150px 0;
+}
+.pro-container a {
+    text-decoration: none;
+}
+
+/* End of Product/Shop */
+
+/* Start of product variant for product1-12.html*/
+#prodetails{
+	display: flex;
+	margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+	width: 40%;
+	margin-right: 50px;
+}
+
+.small-img-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.small-img-col {
+	flex-basis: 24%;
+	cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+	width: 50%;
+	padding: 0px 0px 0px 0px;
+	margin-top: 0px;
+}
+#prodetails .single-pro-details h6{
+	font-size: 15px;
+}
+
+#prodetails .single-pro-details h3{
+	font-size: 30px;
+	padding: 0px;
+}
+
+#prodetails .single-pro-details h2{
+	font-size: 26px;
+}
+#prodetails .single-pro-details select {
+	display: block;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+	width: 50px;
+	height: 47px;	
+	padding-left: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+	outline: none;
+}
+
+#prodetails .single-pro-details button {
+	/* add color */
+}
+
+#prodetails .single-pro-details span{
+	line-height: 25px;
+}
+
+
+
+/* search code */
+
+.search-content *, .search-contents * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-content input[type="text"],
+.search-content button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-content button {
+    cursor: pointer;
+}
+
+.search-contents main {
+    text-align: center;
+}
+
+.search-contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-contents li {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-contents li:hover {
+    background-color: #f0f0f0;
+}
+
+.search {
+    margin-top: 100px;
+}
+
+.searchbutton {
+    border-radius: 18px;
+    width: 100px;
+}
+
+/* end of search */
+
+
+/* start of cart */
+
+
+.cart1 {
+    width: 45%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.cart1 h2 {
+    text-align: center;
+}
+
+.cart1 .total {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.cart1 .pay {
+    width: 85px;
+    height: 30px;
+    border-radius: 18px;
+    margin-left: -215px;
+    margin-top: 1px;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    background-color: rgb(137, 130, 130);
+    color: #fff;
+    border: 1px solid black;
+}
+
+.cart1 .pay:active {
+    background-color: #545151;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* end of cart */
+
+
+/* start of payment */
+
+.payment-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-container .button,
+.payment-container .button2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.payment-container .button:active,
+.payment-container .button2:active {
+    background-color: #0056b3;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.payment-container .button2 {
+    margin-top: 10px;
+}
+
+.payment-container h1 {
+    text-align: center;
+}
+
+.payment-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-container label {
+    margin-bottom: 5px;
+}
+
+.payment-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment-container .input3 {
+    margin-left: 0px;
+    width: 282px;
+}
+
+.payment-container .input4 {
+    width: 282px;
+}
+
+.payment-container .input5 {
+    width: 94%;
+}
+
+.payment-container .lbl5,
+.payment-container .lbl6 {
+    margin-bottom: 5px;
+}
+
+.payment-container .input6 {
+    width: 100%;
+    height: 30px;
+}
+
+.payment-container .payment-notification {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.payment-container .hidden {
+    display: none;
+}
+
+/* end of payment */
